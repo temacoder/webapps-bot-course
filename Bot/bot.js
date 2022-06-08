@@ -1,8 +1,8 @@
 const { Telegraf } = require("telegraf");
-const TOKEN = "";
+const TOKEN = "Ваш токен";
 const bot = new Telegraf(TOKEN);
 
-const web_link = "";
+const web_link = "Ваша ссылка";
 
 bot.start((ctx) =>
   ctx.reply("Добро пожаловать в наш интернет магазин 👇", {
